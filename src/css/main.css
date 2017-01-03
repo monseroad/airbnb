@@ -6354,5 +6354,81 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+.row .col {
+  padding: 0; }
+
+.mp-logo {
+  margin-top: 1%; }
+
+.mp-header {
+  margin-top: 1%;
+  margin-left: -0.1%;
+  background-image: url("../img-monse/imagen1.png"); }
+
+.sombra {
+  box-shadow: none; }
+
+.mp-gris {
+  color: #484848;
+  font-weight: bold; }
+
+.img-mp {
+  z-index: 1;
+  position: absolute; }
+
+/* BOTONES */
+.mp-boton1 {
+  border-radius: 100px;
+  margin-left: 13%;
+  margin-top: 13%;
+  z-index: 2;
+  position: absolute;
+  border: solid gray 0.5px; }
+
+.mp-boton2 {
+  border-radius: 100px;
+  margin-left: 9%;
+  margin-top: -25%;
+  z-index: 2;
+  position: absolute;
+  border: solid #fff 0.5px; }
+
+.mp-boton3 {
+  border-radius: 100px;
+  margin-left: 13%;
+  margin-top: 35.5%;
+  z-index: 2;
+  position: absolute;
+  border: solid gray 0.5px; }
+
+.mp-boton4 {
+  border-radius: 100px;
+  margin-left: 13%;
+  margin-top: 25%;
+  z-index: 2;
+  position: absolute;
+  border: solid gray 0.5px; }
+
+/* CARRUSEL FOTOS DEL HEADER */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto; }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45px;
+  width: auto;
+  margin-top: 15%;
+  color: #484848;
+  font-size: 100px;
+  transition: 0.6s ease;
+  z-index: 3; }
+
+/* Position the "next button" to the right */
+.next {
+  right: 45px; }
 
 /*# sourceMappingURL=main.css.map */
